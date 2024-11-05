@@ -1,0 +1,97 @@
+/* css dosyası*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#body {
+    background-color: #f4f4f4;
+
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#pp {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+    left: 20px;
+}
+
+#isimsoyisim {
+    width: 70%;
+    margin-left: 100px;
+    text-align: center;
+}
+
+
+
+img {
+    width: 20px;
+    height: auto;
+
+}
+
+aside {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    float: left;
+    height: 727px;
+    background-color: #f4f4f4;
+}
+
+article {
+    padding-left: 40px;
+    padding-top: 50px;
+    background-color: white
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: 900;
+    margin-bottom: 5px;
+
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 5px;
+
+}
+
+h5 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+body {
+    background-color: black;
+}
+
+a {
+    color: black;
+}
+
+p {
+    text-indent: 20px;
+}
