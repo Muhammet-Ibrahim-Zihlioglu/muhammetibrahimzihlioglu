@@ -5,10 +5,9 @@
     margin: 0px;
 }
 
-
 #body {
     background-color: #f4f4f4;
-
+    color: black;
     display: flex;
     width: 100%;
     max-width: 1200px;
@@ -31,7 +30,6 @@
     margin-left: 100px;
     text-align: center;
 }
-
 
 
 img {
@@ -82,16 +80,82 @@ ul {
     list-style-type: none;
 }
 
-
-
-body {
-    background-color: black;
-}
-
 a {
     color: black;
 }
 
+a:hover {
+    color: grey;
+}
+
 p {
     text-indent: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #body {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        width: auto;
+    }
+
+    aside {
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        /*yanyana olan divleri aşağıya aldık*/
+        flex-direction: column;
+        /* İçerikleri ortalar */
+        align-items: center;
+        /* Metinleri ortalar */
+        text-align: center;
+        padding: 20px;
+    }
+
+    table {
+        text-align: start;
+    }
+
+    #pp {
+        width: 120px;
+        margin: 10px 0;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    #isimsoyisim {
+        font-size: 28px;
+    }
+
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        text-decoration: underline;
+        font-weight: 900;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+    h4 {
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 5px;
+
+    }
+
+    h5 {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    p {
+        text-indent: 20px;
+        font-size: 15px;
+    }
 }
