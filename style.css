@@ -119,7 +119,8 @@ p {
 
     #pp {
         width: 120px;
-        margin: 10px 0;
+        margin-right: 100px;
+        margin-top: 40px;
     }
 
     article {
