@@ -22,7 +22,7 @@
     border-radius: 50%;
     border: 2px solid black;
     position: relative;
-    left: 20px;
+    left: 50px;
 }
 
 #isimsoyisim {
@@ -91,6 +91,7 @@ a:hover {
 p {
     text-indent: 20px;
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 768px) {
     #body {
@@ -159,3 +160,5 @@ p {
         font-size: 15px;
     }
 }
+=======
+>>>>>>> fabc8b89a3df4672c7a7e6d3562b48ab4c9f48bf
